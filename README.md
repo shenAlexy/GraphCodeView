@@ -11,3 +11,10 @@ iOS本地生成图形验证码的实现
         }
         return _graphCodeView;
     }
+    
+    #pragma mark - GraphCodeView delegate
+    - (void)didTapGraphCodeView:(GraphCodeView *)graphCodeView{
+        NSLog(@"点击了图形验证码");
+    
+    }
+
