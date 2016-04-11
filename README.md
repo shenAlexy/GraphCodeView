@@ -1,5 +1,6 @@
 # GraphCodeView
 iOS本地生成图形验证码的实现
+
 ![image](https://github.com/shenAlexy/GraphCodeView/blob/master/GraphCodeView-demo/GraphCodeView-demo/效果图.png)
 
 # 使用方法
