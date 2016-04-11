@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11021191CBB4737007EC8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C11021181CBB4737007EC8A6 /* main.m */; };
+		C110211C1CBB4737007EC8A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C110211B1CBB4737007EC8A6 /* AppDelegate.m */; };
+		C110211F1CBB4737007EC8A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C110211E1CBB4737007EC8A6 /* ViewController.m */; };
+		C11021221CBB4737007EC8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11021201CBB4737007EC8A6 /* Main.storyboard */; };
+		C11021241CBB4737007EC8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11021231CBB4737007EC8A6 /* Assets.xcassets */; };
+		C11021271CBB4737007EC8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11021251CBB4737007EC8A6 /* LaunchScreen.storyboard */; };
+		C11021321CBB4737007EC8A6 /* GraphCodeView_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C11021311CBB4737007EC8A6 /* GraphCodeView_demoTests.m */; };
+		C110213D1CBB4737007EC8A6 /* GraphCodeView_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C110213C1CBB4737007EC8A6 /* GraphCodeView_demoUITests.m */; };
+		C11021501CBB479A007EC8A6 /* GraphCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C110214F1CBB479A007EC8A6 /* GraphCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C110212E1CBB4737007EC8A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C110210C1CBB4737007EC8A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11021131CBB4737007EC8A6;
+			remoteInfo = "GraphCodeView-demo";
+		};
+		C11021391CBB4737007EC8A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C110210C1CBB4737007EC8A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11021131CBB4737007EC8A6;
+			remoteInfo = "GraphCodeView-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C11021141CBB4737007EC8A6 /* GraphCodeView-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphCodeView-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11021181CBB4737007EC8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C110211A1CBB4737007EC8A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C110211B1CBB4737007EC8A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C110211D1CBB4737007EC8A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C110211E1CBB4737007EC8A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C11021211CBB4737007EC8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11021231CBB4737007EC8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11021261CBB4737007EC8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11021281CBB4737007EC8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C110212D1CBB4737007EC8A6 /* GraphCodeView-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphCodeView-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11021311CBB4737007EC8A6 /* GraphCodeView_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphCodeView_demoTests.m; sourceTree = "<group>"; };
+		C11021331CBB4737007EC8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11021381CBB4737007EC8A6 /* GraphCodeView-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphCodeView-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C110213C1CBB4737007EC8A6 /* GraphCodeView_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphCodeView_demoUITests.m; sourceTree = "<group>"; };
+		C110213E1CBB4737007EC8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C110214E1CBB479A007EC8A6 /* GraphCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphCodeView.h; sourceTree = "<group>"; };
+		C110214F1CBB479A007EC8A6 /* GraphCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphCodeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11021111CBB4737007EC8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C110212A1CBB4737007EC8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11021351CBB4737007EC8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C110210B1CBB4737007EC8A6 = {
+			isa = PBXGroup;
+			children = (
+				C11021161CBB4737007EC8A6 /* GraphCodeView-demo */,
+				C11021301CBB4737007EC8A6 /* GraphCodeView-demoTests */,
+				C110213B1CBB4737007EC8A6 /* GraphCodeView-demoUITests */,
+				C11021151CBB4737007EC8A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11021151CBB4737007EC8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11021141CBB4737007EC8A6 /* GraphCodeView-demo.app */,
+				C110212D1CBB4737007EC8A6 /* GraphCodeView-demoTests.xctest */,
+				C11021381CBB4737007EC8A6 /* GraphCodeView-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11021161CBB4737007EC8A6 /* GraphCodeView-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C110214A1CBB4763007EC8A6 /* GraphCodeView(生成图形验证码) */,
+				C110211A1CBB4737007EC8A6 /* AppDelegate.h */,
+				C110211B1CBB4737007EC8A6 /* AppDelegate.m */,
+				C110211D1CBB4737007EC8A6 /* ViewController.h */,
+				C110211E1CBB4737007EC8A6 /* ViewController.m */,
+				C11021201CBB4737007EC8A6 /* Main.storyboard */,
+				C11021231CBB4737007EC8A6 /* Assets.xcassets */,
+				C11021251CBB4737007EC8A6 /* LaunchScreen.storyboard */,
+				C11021281CBB4737007EC8A6 /* Info.plist */,
+				C11021171CBB4737007EC8A6 /* Supporting Files */,
+			);
+			path = "GraphCodeView-demo";
+			sourceTree = "<group>";
+		};
+		C11021171CBB4737007EC8A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11021181CBB4737007EC8A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C11021301CBB4737007EC8A6 /* GraphCodeView-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C11021311CBB4737007EC8A6 /* GraphCodeView_demoTests.m */,
+				C11021331CBB4737007EC8A6 /* Info.plist */,
+			);
+			path = "GraphCodeView-demoTests";
+			sourceTree = "<group>";
+		};
+		C110213B1CBB4737007EC8A6 /* GraphCodeView-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C110213C1CBB4737007EC8A6 /* GraphCodeView_demoUITests.m */,
+				C110213E1CBB4737007EC8A6 /* Info.plist */,
+			);
+			path = "GraphCodeView-demoUITests";
+			sourceTree = "<group>";
+		};
+		C110214A1CBB4763007EC8A6 /* GraphCodeView(生成图形验证码) */ = {
+			isa = PBXGroup;
+			children = (
+				C110214E1CBB479A007EC8A6 /* GraphCodeView.h */,
+				C110214F1CBB479A007EC8A6 /* GraphCodeView.m */,
+			);
+			path = "GraphCodeView(生成图形验证码)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11021131CBB4737007EC8A6 /* GraphCodeView-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11021411CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demo" */;
+			buildPhases = (
+				C11021101CBB4737007EC8A6 /* Sources */,
+				C11021111CBB4737007EC8A6 /* Frameworks */,
+				C11021121CBB4737007EC8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GraphCodeView-demo";
+			productName = "GraphCodeView-demo";
+			productReference = C11021141CBB4737007EC8A6 /* GraphCodeView-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C110212C1CBB4737007EC8A6 /* GraphCodeView-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11021441CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demoTests" */;
+			buildPhases = (
+				C11021291CBB4737007EC8A6 /* Sources */,
+				C110212A1CBB4737007EC8A6 /* Frameworks */,
+				C110212B1CBB4737007EC8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C110212F1CBB4737007EC8A6 /* PBXTargetDependency */,
+			);
+			name = "GraphCodeView-demoTests";
+			productName = "GraphCodeView-demoTests";
+			productReference = C110212D1CBB4737007EC8A6 /* GraphCodeView-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C11021371CBB4737007EC8A6 /* GraphCodeView-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11021471CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demoUITests" */;
+			buildPhases = (
+				C11021341CBB4737007EC8A6 /* Sources */,
+				C11021351CBB4737007EC8A6 /* Frameworks */,
+				C11021361CBB4737007EC8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C110213A1CBB4737007EC8A6 /* PBXTargetDependency */,
+			);
+			name = "GraphCodeView-demoUITests";
+			productName = "GraphCodeView-demoUITests";
+			productReference = C11021381CBB4737007EC8A6 /* GraphCodeView-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C110210C1CBB4737007EC8A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "申冠华";
+				TargetAttributes = {
+					C11021131CBB4737007EC8A6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C110212C1CBB4737007EC8A6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C11021131CBB4737007EC8A6;
+					};
+					C11021371CBB4737007EC8A6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C11021131CBB4737007EC8A6;
+					};
+				};
+			};
+			buildConfigurationList = C110210F1CBB4737007EC8A6 /* Build configuration list for PBXProject "GraphCodeView-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C110210B1CBB4737007EC8A6;
+			productRefGroup = C11021151CBB4737007EC8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11021131CBB4737007EC8A6 /* GraphCodeView-demo */,
+				C110212C1CBB4737007EC8A6 /* GraphCodeView-demoTests */,
+				C11021371CBB4737007EC8A6 /* GraphCodeView-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11021121CBB4737007EC8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11021271CBB4737007EC8A6 /* LaunchScreen.storyboard in Resources */,
+				C11021241CBB4737007EC8A6 /* Assets.xcassets in Resources */,
+				C11021221CBB4737007EC8A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C110212B1CBB4737007EC8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11021361CBB4737007EC8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11021101CBB4737007EC8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C110211F1CBB4737007EC8A6 /* ViewController.m in Sources */,
+				C110211C1CBB4737007EC8A6 /* AppDelegate.m in Sources */,
+				C11021501CBB479A007EC8A6 /* GraphCodeView.m in Sources */,
+				C11021191CBB4737007EC8A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11021291CBB4737007EC8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11021321CBB4737007EC8A6 /* GraphCodeView_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11021341CBB4737007EC8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C110213D1CBB4737007EC8A6 /* GraphCodeView_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C110212F1CBB4737007EC8A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11021131CBB4737007EC8A6 /* GraphCodeView-demo */;
+			targetProxy = C110212E1CBB4737007EC8A6 /* PBXContainerItemProxy */;
+		};
+		C110213A1CBB4737007EC8A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11021131CBB4737007EC8A6 /* GraphCodeView-demo */;
+			targetProxy = C11021391CBB4737007EC8A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C11021201CBB4737007EC8A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11021211CBB4737007EC8A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C11021251CBB4737007EC8A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11021261CBB4737007EC8A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C110213F1CBB4737007EC8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C11021401CBB4737007EC8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11021421CBB4737007EC8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GraphCodeView-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GraphCodeView-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C11021431CBB4737007EC8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GraphCodeView-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GraphCodeView-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C11021451CBB4737007EC8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GraphCodeView-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GraphCodeView-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphCodeView-demo.app/GraphCodeView-demo";
+			};
+			name = Debug;
+		};
+		C11021461CBB4737007EC8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GraphCodeView-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GraphCodeView-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphCodeView-demo.app/GraphCodeView-demo";
+			};
+			name = Release;
+		};
+		C11021481CBB4737007EC8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GraphCodeView-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GraphCodeView-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GraphCodeView-demo";
+			};
+			name = Debug;
+		};
+		C11021491CBB4737007EC8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GraphCodeView-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.GraphCodeView-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GraphCodeView-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C110210F1CBB4737007EC8A6 /* Build configuration list for PBXProject "GraphCodeView-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C110213F1CBB4737007EC8A6 /* Debug */,
+				C11021401CBB4737007EC8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11021411CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11021421CBB4737007EC8A6 /* Debug */,
+				C11021431CBB4737007EC8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C11021441CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11021451CBB4737007EC8A6 /* Debug */,
+				C11021461CBB4737007EC8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C11021471CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11021481CBB4737007EC8A6 /* Debug */,
+				C11021491CBB4737007EC8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C110210C1CBB4737007EC8A6 /* Project object */;
+}
