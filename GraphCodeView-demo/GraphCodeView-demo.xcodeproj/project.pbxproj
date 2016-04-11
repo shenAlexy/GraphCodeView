@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C10C6BE71CBB4FBF00C69E8E /* 效果图.png in Resources */ = {isa = PBXBuildFile; fileRef = C10C6BE61CBB4FBF00C69E8E /* 效果图.png */; };
 		C11021191CBB4737007EC8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C11021181CBB4737007EC8A6 /* main.m */; };
 		C110211C1CBB4737007EC8A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C110211B1CBB4737007EC8A6 /* AppDelegate.m */; };
 		C110211F1CBB4737007EC8A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C110211E1CBB4737007EC8A6 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C10C6BE61CBB4FBF00C69E8E /* 效果图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "效果图.png"; sourceTree = "<group>"; };
 		C11021141CBB4737007EC8A6 /* GraphCodeView-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphCodeView-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11021181CBB4737007EC8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C110211A1CBB4737007EC8A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		C11021161CBB4737007EC8A6 /* GraphCodeView-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C10C6BE61CBB4FBF00C69E8E /* 效果图.png */,
 				C110214A1CBB4763007EC8A6 /* GraphCodeView(生成图形验证码) */,
 				C110211A1CBB4737007EC8A6 /* AppDelegate.h */,
 				C110211B1CBB4737007EC8A6 /* AppDelegate.m */,
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10C6BE71CBB4FBF00C69E8E /* 效果图.png in Resources */,
 				C11021271CBB4737007EC8A6 /* LaunchScreen.storyboard in Resources */,
 				C11021241CBB4737007EC8A6 /* Assets.xcassets in Resources */,
 				C11021221CBB4737007EC8A6 /* Main.storyboard in Resources */,
@@ -510,6 +514,7 @@
 				C11021431CBB4737007EC8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11021441CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				C11021461CBB4737007EC8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11021471CBB4737007EC8A6 /* Build configuration list for PBXNativeTarget "GraphCodeView-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +532,7 @@
 				C11021491CBB4737007EC8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
