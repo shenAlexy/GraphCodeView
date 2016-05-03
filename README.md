@@ -12,7 +12,7 @@ iOS本地生成图形验证码的实现
             [_graphCodeView setDelegate:self];
         }
         return _graphCodeView;
-    }
+    }z
     
     #pragma mark - GraphCodeView delegate
     - (void)didTapGraphCodeView:(GraphCodeView *)graphCodeView{
